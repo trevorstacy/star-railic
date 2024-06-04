@@ -1,0 +1,1009 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55035A922AB62FEC0076510F /* StarRailicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55035A912AB62FEC0076510F /* StarRailicApp.swift */; };
+		55035A942AB62FEC0076510F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55035A932AB62FEC0076510F /* ContentView.swift */; };
+		55035A962AB62FED0076510F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55035A952AB62FED0076510F /* Assets.xcassets */; };
+		55035A992AB62FED0076510F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55035A982AB62FED0076510F /* Preview Assets.xcassets */; };
+		55035AA32AB62FED0076510F /* StarRailicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55035AA22AB62FED0076510F /* StarRailicTests.swift */; };
+		55035AAD2AB62FED0076510F /* StarRailicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55035AAC2AB62FED0076510F /* StarRailicUITests.swift */; };
+		55035AAF2AB62FED0076510F /* StarRailicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55035AAE2AB62FED0076510F /* StarRailicUITestsLaunchTests.swift */; };
+		55035ABD2AB66E610076510F /* DiamondPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55035ABC2AB66E610076510F /* DiamondPatternView.swift */; };
+		55035AC12AB66E870076510F /* Diamond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55035AC02AB66E870076510F /* Diamond.swift */; };
+		5509DDBB2ABA6384008B565A /* RelicScorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509DDBA2ABA6384008B565A /* RelicScorer.swift */; };
+		5509DDBD2ABA6ABC008B565A /* RelicStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5509DDBC2ABA6ABC008B565A /* RelicStat.swift */; };
+		5524FCC92AB7871200F85626 /* RelicProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5524FCC82AB7871200F85626 /* RelicProcessor.swift */; };
+		55448A092AB6B87400C9CC40 /* SlantedRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55448A082AB6B87400C9CC40 /* SlantedRectangle.swift */; };
+		55448A0C2AB6B92900C9CC40 /* SlandtedRectangleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55448A0B2AB6B92900C9CC40 /* SlandtedRectangleButtonStyle.swift */; };
+		55448A0E2AB6BC0200C9CC40 /* RelicUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55448A0D2AB6BC0200C9CC40 /* RelicUploader.swift */; };
+		5546143C2AC1017F00CA1DF6 /* SpeedStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5546143B2AC1017F00CA1DF6 /* SpeedStat.swift */; };
+		555192A32AB7561A00908E8B /* Relic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555192A22AB7561A00908E8B /* Relic.swift */; };
+		555192A52AB7580F00908E8B /* Stat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555192A42AB7580F00908E8B /* Stat.swift */; };
+		55A581452ABB816E001C14AF /* EaglesWingedSuitHarness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580F82ABB816C001C14AF /* EaglesWingedSuitHarness.swift */; };
+		55A581462ABB816E001C14AF /* VonwacqsIslandofBirth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580F92ABB816C001C14AF /* VonwacqsIslandofBirth.swift */; };
+		55A581472ABB816E001C14AF /* WastelandersDesertTerminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580FA2ABB816C001C14AF /* WastelandersDesertTerminal.swift */; };
+		55A581482ABB816E001C14AF /* EaglesSoaringRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580FB2ABB816C001C14AF /* EaglesSoaringRing.swift */; };
+		55A581492ABB816E001C14AF /* MusketeersRivetsRidingBoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580FC2ABB816C001C14AF /* MusketeersRivetsRidingBoots.swift */; };
+		55A5814A2ABB816E001C14AF /* BelobogsIronDefense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580FD2ABB816C001C14AF /* BelobogsIronDefense.swift */; };
+		55A5814B2ABB816E001C14AF /* ChampionsHeadgear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580FE2ABB816C001C14AF /* ChampionsHeadgear.swift */; };
+		55A5814C2ABB816E001C14AF /* GuardsCastIronHelmet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A580FF2ABB816C001C14AF /* GuardsCastIronHelmet.swift */; };
+		55A5814D2ABB816E001C14AF /* KnightsSilentOathRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581002ABB816C001C14AF /* KnightsSilentOathRing.swift */; };
+		55A5814E2ABB816E001C14AF /* HuntersIceDragonCloak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581012ABB816C001C14AF /* HuntersIceDragonCloak.swift */; };
+		55A5814F2ABB816E001C14AF /* ChampionsChestGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581022ABB816C001C14AF /* ChampionsChestGuard.swift */; };
+		55A581502ABB816E001C14AF /* ChampionsFleetfootBoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581032ABB816C001C14AF /* ChampionsFleetfootBoots.swift */; };
+		55A581512ABB816E001C14AF /* GuardsUniformofOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581042ABB816C001C14AF /* GuardsUniformofOld.swift */; };
+		55A581522ABB816E001C14AF /* PasserbysStygianHikingBoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581052ABB816C001C14AF /* PasserbysStygianHikingBoots.swift */; };
+		55A581532ABB816E001C14AF /* MessengersHolovisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581062ABB816C001C14AF /* MessengersHolovisor.swift */; };
+		55A581542ABB816E001C14AF /* FiresmithsFireproofApron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581072ABB816C001C14AF /* FiresmithsFireproofApron.swift */; };
+		55A581552ABB816E001C14AF /* TheIPCsMegaHQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581082ABB816C001C14AF /* TheIPCsMegaHQ.swift */; };
+		55A581562ABB816E001C14AF /* GeniusMetafieldSuit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581092ABB816C001C14AF /* GeniusMetafieldSuit.swift */; };
+		55A581572ABB816E001C14AF /* InsumoususWhalefallShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5810A2ABB816C001C14AF /* InsumoususWhalefallShip.swift */; };
+		55A581582ABB816E001C14AF /* HuntersSoftElkskinBoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5810B2ABB816C001C14AF /* HuntersSoftElkskinBoots.swift */; };
+		55A581592ABB816E001C14AF /* VonwacqsIslandicCoast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5810C2ABB816C001C14AF /* VonwacqsIslandicCoast.swift */; };
+		55A5815A2ABB816E001C14AF /* PasserbysRejuvenatedWoodenHairstick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5810D2ABB816C001C14AF /* PasserbysRejuvenatedWoodenHairstick.swift */; };
+		55A5815B2ABB816E001C14AF /* HertasSpaceStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5810E2ABB816D001C14AF /* HertasSpaceStation.swift */; };
+		55A5815C2ABB816E001C14AF /* FiresmithsRingofFlameMastery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5810F2ABB816D001C14AF /* FiresmithsRingofFlameMastery.swift */; };
+		55A5815D2ABB816E001C14AF /* PasserbysRaggedEmbroidedCoat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581102ABB816D001C14AF /* PasserbysRaggedEmbroidedCoat.swift */; };
+		55A5815E2ABB816E001C14AF /* InsumoususFrayedHawser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581112ABB816D001C14AF /* InsumoususFrayedHawser.swift */; };
+		55A5815F2ABB816E001C14AF /* WastelandersFriarRobe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581122ABB816D001C14AF /* WastelandersFriarRobe.swift */; };
+		55A581602ABB816E001C14AF /* ThiefsMeteorBoots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581132ABB816D001C14AF /* ThiefsMeteorBoots.swift */; };
+		55A581612ABB816E001C14AF /* TaikiyansArclightRaceTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581142ABB816D001C14AF /* TaikiyansArclightRaceTrack.swift */; };
+		55A581622ABB816E001C14AF /* BelobogsFortressofPreservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581152ABB816D001C14AF /* BelobogsFortressofPreservation.swift */; };
+		55A581632ABB816E001C14AF /* KnightsForgivingCasque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581162ABB816D001C14AF /* KnightsForgivingCasque.swift */; };
+		55A581642ABB816E001C14AF /* GeniusGravityWalker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581172ABB816D001C14AF /* GeniusGravityWalker.swift */; };
+		55A581652ABB816E001C14AF /* DisciplesIngeniumHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581182ABB816D001C14AF /* DisciplesIngeniumHand.swift */; };
+		55A581662ABB816E001C14AF /* GuardsSilverGreaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581192ABB816D001C14AF /* GuardsSilverGreaves.swift */; };
+		55A581672ABB816E001C14AF /* TaikiyanLaserStadium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5811A2ABB816D001C14AF /* TaikiyanLaserStadium.swift */; };
+		55A581682ABB816E001C14AF /* GeniusUltraremoteSensingVisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5811B2ABB816D001C14AF /* GeniusUltraremoteSensingVisor.swift */; };
+		55A581692ABB816E001C14AF /* GuardsShiningGauntlets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5811C2ABB816D001C14AF /* GuardsShiningGauntlets.swift */; };
+		55A5816A2ABB816E001C14AF /* HuntersArtaiusHood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5811D2ABB816D001C14AF /* HuntersArtaiusHood.swift */; };
+		55A5816B2ABB816E001C14AF /* BandsTouringBracelet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5811E2ABB816D001C14AF /* BandsTouringBracelet.swift */; };
+		55A5816C2ABB816E001C14AF /* FiresmithsObsidianGoggles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5811F2ABB816D001C14AF /* FiresmithsObsidianGoggles.swift */; };
+		55A5816D2ABB816E001C14AF /* DisciplesCelestialSilkSandals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581202ABB816D001C14AF /* DisciplesCelestialSilkSandals.swift */; };
+		55A5816E2ABB816E001C14AF /* TheXianzhouLuofusCelestialArk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581212ABB816D001C14AF /* TheXianzhouLuofusCelestialArk.swift */; };
+		55A5816F2ABB816E001C14AF /* ThiefsGlovesWithPrints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581222ABB816D001C14AF /* ThiefsGlovesWithPrints.swift */; };
+		55A581702ABB816E001C14AF /* BandsAnkleBootsWithRivets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581232ABB816D001C14AF /* BandsAnkleBootsWithRivets.swift */; };
+		55A581712ABB816E001C14AF /* MessengersSecretSatchel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581242ABB816D001C14AF /* MessengersSecretSatchel.swift */; };
+		55A581722ABB816E001C14AF /* BandsPolarizedSunglasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581252ABB816D001C14AF /* BandsPolarizedSunglasses.swift */; };
+		55A581732ABB816E001C14AF /* PlanetScrewllumsRingSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581262ABB816D001C14AF /* PlanetScrewllumsRingSystem.swift */; };
+		55A581742ABB816E001C14AF /* PasserbysRoamingDragonBracer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581272ABB816D001C14AF /* PasserbysRoamingDragonBracer.swift */; };
+		55A581752ABB816E001C14AF /* TheIPCsTradeRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581282ABB816D001C14AF /* TheIPCsTradeRoute.swift */; };
+		55A581762ABB816E001C14AF /* ChampionsHeavyGloves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581292ABB816D001C14AF /* ChampionsHeavyGloves.swift */; };
+		55A581772ABB816E001C14AF /* TheXianzhouLuofusAmbrosialArborVines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5812A2ABB816D001C14AF /* TheXianzhouLuofusAmbrosialArborVines.swift */; };
+		55A581782ABB816E001C14AF /* TaliasNailscrapTown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5812B2ABB816D001C14AF /* TaliasNailscrapTown.swift */; };
+		55A581792ABB816E001C14AF /* MessengersParkoolSneakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5812C2ABB816D001C14AF /* MessengersParkoolSneakers.swift */; };
+		55A5817A2ABB816E001C14AF /* GeniusFrequencyCatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5812D2ABB816D001C14AF /* GeniusFrequencyCatcher.swift */; };
+		55A5817B2ABB816E001C14AF /* MusketeersWildWheatFeltHat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5812E2ABB816D001C14AF /* MusketeersWildWheatFeltHat.swift */; };
+		55A5817C2ABB816E001C14AF /* PlanetScrewllumsMechanicalSun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5812F2ABB816D001C14AF /* PlanetScrewllumsMechanicalSun.swift */; };
+		55A5817D2ABB816E001C14AF /* HertasWanderingTrek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581302ABB816D001C14AF /* HertasWanderingTrek.swift */; };
+		55A5817F2ABB816E001C14AF /* TaliasExposedElectricWire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581322ABB816D001C14AF /* TaliasExposedElectricWire.swift */; };
+		55A581802ABB816E001C14AF /* SalsottosTerminatorLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581332ABB816D001C14AF /* SalsottosTerminatorLine.swift */; };
+		55A581812ABB816E001C14AF /* FiresmithsAlloyLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581342ABB816D001C14AF /* FiresmithsAlloyLeg.swift */; };
+		55A581822ABB816E001C14AF /* WastelandersPoweredGreaves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581352ABB816D001C14AF /* WastelandersPoweredGreaves.swift */; };
+		55A581832ABB816E001C14AF /* SalsottosMovingCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581362ABB816D001C14AF /* SalsottosMovingCity.swift */; };
+		55A581842ABB816E001C14AF /* WastelandersBreathingMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581372ABB816D001C14AF /* WastelandersBreathingMask.swift */; };
+		55A581852ABB816E001C14AF /* ThiefsSteelGrapplingHook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581382ABB816D001C14AF /* ThiefsSteelGrapplingHook.swift */; };
+		55A581862ABB816E001C14AF /* DisciplesDewyFeatherGarb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581392ABB816D001C14AF /* DisciplesDewyFeatherGarb.swift */; };
+		55A581872ABB816E001C14AF /* DisciplesProstheticEye.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5813A2ABB816D001C14AF /* DisciplesProstheticEye.swift */; };
+		55A581882ABB816E001C14AF /* MessengersTransformativeArm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5813B2ABB816D001C14AF /* MessengersTransformativeArm.swift */; };
+		55A581892ABB816E001C14AF /* MusketeersCoarseLeatherGloves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5813C2ABB816D001C14AF /* MusketeersCoarseLeatherGloves.swift */; };
+		55A5818A2ABB816E001C14AF /* EaglesBeakedHelmet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5813D2ABB816D001C14AF /* EaglesBeakedHelmet.swift */; };
+		55A5818B2ABB816E001C14AF /* KnightsIronBootsofOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5813E2ABB816D001C14AF /* KnightsIronBootsofOrder.swift */; };
+		55A5818C2ABB816E001C14AF /* HuntersLizardGloves.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A5813F2ABB816D001C14AF /* HuntersLizardGloves.swift */; };
+		55A5818D2ABB816E001C14AF /* KnightsSolemnBreastplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581402ABB816D001C14AF /* KnightsSolemnBreastplate.swift */; };
+		55A5818E2ABB816E001C14AF /* MusketeersWindHuntingShawl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581412ABB816D001C14AF /* MusketeersWindHuntingShawl.swift */; };
+		55A5818F2ABB816E001C14AF /* EaglesQuiltedPuttees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581422ABB816D001C14AF /* EaglesQuiltedPuttees.swift */; };
+		55A581902ABB816E001C14AF /* BandsLeatherJacketWithStuds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581432ABB816D001C14AF /* BandsLeatherJacketWithStuds.swift */; };
+		55A581912ABB816E001C14AF /* ThiefsMyriadFacedMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581442ABB816D001C14AF /* ThiefsMyriadFacedMask.swift */; };
+		55A581942ABB852D001C14AF /* RelicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581932ABB852D001C14AF /* RelicType.swift */; };
+		55A581962ABBEE58001C14AF /* StatEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581952ABBEE58001C14AF /* StatEnum.swift */; };
+		55A581982ABD6F1F001C14AF /* Relics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A581972ABD6F1F001C14AF /* Relics.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55035A9F2AB62FED0076510F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55035A862AB62FEC0076510F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55035A8D2AB62FEC0076510F;
+			remoteInfo = StarRailic;
+		};
+		55035AA92AB62FED0076510F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55035A862AB62FEC0076510F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55035A8D2AB62FEC0076510F;
+			remoteInfo = StarRailic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55035A8E2AB62FEC0076510F /* StarRailic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarRailic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55035A912AB62FEC0076510F /* StarRailicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailicApp.swift; sourceTree = "<group>"; };
+		55035A932AB62FEC0076510F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55035A952AB62FED0076510F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55035A982AB62FED0076510F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55035A9E2AB62FED0076510F /* StarRailicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarRailicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55035AA22AB62FED0076510F /* StarRailicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailicTests.swift; sourceTree = "<group>"; };
+		55035AA82AB62FED0076510F /* StarRailicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarRailicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55035AAC2AB62FED0076510F /* StarRailicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailicUITests.swift; sourceTree = "<group>"; };
+		55035AAE2AB62FED0076510F /* StarRailicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRailicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55035ABC2AB66E610076510F /* DiamondPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondPatternView.swift; sourceTree = "<group>"; };
+		55035AC02AB66E870076510F /* Diamond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diamond.swift; sourceTree = "<group>"; };
+		5509DDBA2ABA6384008B565A /* RelicScorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicScorer.swift; sourceTree = "<group>"; };
+		5509DDBC2ABA6ABC008B565A /* RelicStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicStat.swift; sourceTree = "<group>"; };
+		5524FCC82AB7871200F85626 /* RelicProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicProcessor.swift; sourceTree = "<group>"; };
+		55448A082AB6B87400C9CC40 /* SlantedRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlantedRectangle.swift; sourceTree = "<group>"; };
+		55448A0B2AB6B92900C9CC40 /* SlandtedRectangleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlandtedRectangleButtonStyle.swift; sourceTree = "<group>"; };
+		55448A0D2AB6BC0200C9CC40 /* RelicUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicUploader.swift; sourceTree = "<group>"; };
+		5546143B2AC1017F00CA1DF6 /* SpeedStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedStat.swift; sourceTree = "<group>"; };
+		555192A22AB7561A00908E8B /* Relic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relic.swift; sourceTree = "<group>"; };
+		555192A42AB7580F00908E8B /* Stat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stat.swift; sourceTree = "<group>"; };
+		55A580F82ABB816C001C14AF /* EaglesWingedSuitHarness.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaglesWingedSuitHarness.swift; sourceTree = "<group>"; };
+		55A580F92ABB816C001C14AF /* VonwacqsIslandofBirth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VonwacqsIslandofBirth.swift; sourceTree = "<group>"; };
+		55A580FA2ABB816C001C14AF /* WastelandersDesertTerminal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WastelandersDesertTerminal.swift; sourceTree = "<group>"; };
+		55A580FB2ABB816C001C14AF /* EaglesSoaringRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaglesSoaringRing.swift; sourceTree = "<group>"; };
+		55A580FC2ABB816C001C14AF /* MusketeersRivetsRidingBoots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusketeersRivetsRidingBoots.swift; sourceTree = "<group>"; };
+		55A580FD2ABB816C001C14AF /* BelobogsIronDefense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BelobogsIronDefense.swift; sourceTree = "<group>"; };
+		55A580FE2ABB816C001C14AF /* ChampionsHeadgear.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionsHeadgear.swift; sourceTree = "<group>"; };
+		55A580FF2ABB816C001C14AF /* GuardsCastIronHelmet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardsCastIronHelmet.swift; sourceTree = "<group>"; };
+		55A581002ABB816C001C14AF /* KnightsSilentOathRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsSilentOathRing.swift; sourceTree = "<group>"; };
+		55A581012ABB816C001C14AF /* HuntersIceDragonCloak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuntersIceDragonCloak.swift; sourceTree = "<group>"; };
+		55A581022ABB816C001C14AF /* ChampionsChestGuard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionsChestGuard.swift; sourceTree = "<group>"; };
+		55A581032ABB816C001C14AF /* ChampionsFleetfootBoots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionsFleetfootBoots.swift; sourceTree = "<group>"; };
+		55A581042ABB816C001C14AF /* GuardsUniformofOld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardsUniformofOld.swift; sourceTree = "<group>"; };
+		55A581052ABB816C001C14AF /* PasserbysStygianHikingBoots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasserbysStygianHikingBoots.swift; sourceTree = "<group>"; };
+		55A581062ABB816C001C14AF /* MessengersHolovisor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengersHolovisor.swift; sourceTree = "<group>"; };
+		55A581072ABB816C001C14AF /* FiresmithsFireproofApron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiresmithsFireproofApron.swift; sourceTree = "<group>"; };
+		55A581082ABB816C001C14AF /* TheIPCsMegaHQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheIPCsMegaHQ.swift; sourceTree = "<group>"; };
+		55A581092ABB816C001C14AF /* GeniusMetafieldSuit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusMetafieldSuit.swift; sourceTree = "<group>"; };
+		55A5810A2ABB816C001C14AF /* InsumoususWhalefallShip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsumoususWhalefallShip.swift; sourceTree = "<group>"; };
+		55A5810B2ABB816C001C14AF /* HuntersSoftElkskinBoots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuntersSoftElkskinBoots.swift; sourceTree = "<group>"; };
+		55A5810C2ABB816C001C14AF /* VonwacqsIslandicCoast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VonwacqsIslandicCoast.swift; sourceTree = "<group>"; };
+		55A5810D2ABB816C001C14AF /* PasserbysRejuvenatedWoodenHairstick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasserbysRejuvenatedWoodenHairstick.swift; sourceTree = "<group>"; };
+		55A5810E2ABB816D001C14AF /* HertasSpaceStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HertasSpaceStation.swift; sourceTree = "<group>"; };
+		55A5810F2ABB816D001C14AF /* FiresmithsRingofFlameMastery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiresmithsRingofFlameMastery.swift; sourceTree = "<group>"; };
+		55A581102ABB816D001C14AF /* PasserbysRaggedEmbroidedCoat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasserbysRaggedEmbroidedCoat.swift; sourceTree = "<group>"; };
+		55A581112ABB816D001C14AF /* InsumoususFrayedHawser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsumoususFrayedHawser.swift; sourceTree = "<group>"; };
+		55A581122ABB816D001C14AF /* WastelandersFriarRobe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WastelandersFriarRobe.swift; sourceTree = "<group>"; };
+		55A581132ABB816D001C14AF /* ThiefsMeteorBoots.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiefsMeteorBoots.swift; sourceTree = "<group>"; };
+		55A581142ABB816D001C14AF /* TaikiyansArclightRaceTrack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaikiyansArclightRaceTrack.swift; sourceTree = "<group>"; };
+		55A581152ABB816D001C14AF /* BelobogsFortressofPreservation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BelobogsFortressofPreservation.swift; sourceTree = "<group>"; };
+		55A581162ABB816D001C14AF /* KnightsForgivingCasque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsForgivingCasque.swift; sourceTree = "<group>"; };
+		55A581172ABB816D001C14AF /* GeniusGravityWalker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusGravityWalker.swift; sourceTree = "<group>"; };
+		55A581182ABB816D001C14AF /* DisciplesIngeniumHand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplesIngeniumHand.swift; sourceTree = "<group>"; };
+		55A581192ABB816D001C14AF /* GuardsSilverGreaves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardsSilverGreaves.swift; sourceTree = "<group>"; };
+		55A5811A2ABB816D001C14AF /* TaikiyanLaserStadium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaikiyanLaserStadium.swift; sourceTree = "<group>"; };
+		55A5811B2ABB816D001C14AF /* GeniusUltraremoteSensingVisor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusUltraremoteSensingVisor.swift; sourceTree = "<group>"; };
+		55A5811C2ABB816D001C14AF /* GuardsShiningGauntlets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuardsShiningGauntlets.swift; sourceTree = "<group>"; };
+		55A5811D2ABB816D001C14AF /* HuntersArtaiusHood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuntersArtaiusHood.swift; sourceTree = "<group>"; };
+		55A5811E2ABB816D001C14AF /* BandsTouringBracelet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsTouringBracelet.swift; sourceTree = "<group>"; };
+		55A5811F2ABB816D001C14AF /* FiresmithsObsidianGoggles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiresmithsObsidianGoggles.swift; sourceTree = "<group>"; };
+		55A581202ABB816D001C14AF /* DisciplesCelestialSilkSandals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplesCelestialSilkSandals.swift; sourceTree = "<group>"; };
+		55A581212ABB816D001C14AF /* TheXianzhouLuofusCelestialArk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheXianzhouLuofusCelestialArk.swift; sourceTree = "<group>"; };
+		55A581222ABB816D001C14AF /* ThiefsGlovesWithPrints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiefsGlovesWithPrints.swift; sourceTree = "<group>"; };
+		55A581232ABB816D001C14AF /* BandsAnkleBootsWithRivets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsAnkleBootsWithRivets.swift; sourceTree = "<group>"; };
+		55A581242ABB816D001C14AF /* MessengersSecretSatchel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengersSecretSatchel.swift; sourceTree = "<group>"; };
+		55A581252ABB816D001C14AF /* BandsPolarizedSunglasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsPolarizedSunglasses.swift; sourceTree = "<group>"; };
+		55A581262ABB816D001C14AF /* PlanetScrewllumsRingSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetScrewllumsRingSystem.swift; sourceTree = "<group>"; };
+		55A581272ABB816D001C14AF /* PasserbysRoamingDragonBracer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasserbysRoamingDragonBracer.swift; sourceTree = "<group>"; };
+		55A581282ABB816D001C14AF /* TheIPCsTradeRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheIPCsTradeRoute.swift; sourceTree = "<group>"; };
+		55A581292ABB816D001C14AF /* ChampionsHeavyGloves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChampionsHeavyGloves.swift; sourceTree = "<group>"; };
+		55A5812A2ABB816D001C14AF /* TheXianzhouLuofusAmbrosialArborVines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheXianzhouLuofusAmbrosialArborVines.swift; sourceTree = "<group>"; };
+		55A5812B2ABB816D001C14AF /* TaliasNailscrapTown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaliasNailscrapTown.swift; sourceTree = "<group>"; };
+		55A5812C2ABB816D001C14AF /* MessengersParkoolSneakers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengersParkoolSneakers.swift; sourceTree = "<group>"; };
+		55A5812D2ABB816D001C14AF /* GeniusFrequencyCatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeniusFrequencyCatcher.swift; sourceTree = "<group>"; };
+		55A5812E2ABB816D001C14AF /* MusketeersWildWheatFeltHat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusketeersWildWheatFeltHat.swift; sourceTree = "<group>"; };
+		55A5812F2ABB816D001C14AF /* PlanetScrewllumsMechanicalSun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetScrewllumsMechanicalSun.swift; sourceTree = "<group>"; };
+		55A581302ABB816D001C14AF /* HertasWanderingTrek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HertasWanderingTrek.swift; sourceTree = "<group>"; };
+		55A581322ABB816D001C14AF /* TaliasExposedElectricWire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaliasExposedElectricWire.swift; sourceTree = "<group>"; };
+		55A581332ABB816D001C14AF /* SalsottosTerminatorLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalsottosTerminatorLine.swift; sourceTree = "<group>"; };
+		55A581342ABB816D001C14AF /* FiresmithsAlloyLeg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiresmithsAlloyLeg.swift; sourceTree = "<group>"; };
+		55A581352ABB816D001C14AF /* WastelandersPoweredGreaves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WastelandersPoweredGreaves.swift; sourceTree = "<group>"; };
+		55A581362ABB816D001C14AF /* SalsottosMovingCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalsottosMovingCity.swift; sourceTree = "<group>"; };
+		55A581372ABB816D001C14AF /* WastelandersBreathingMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WastelandersBreathingMask.swift; sourceTree = "<group>"; };
+		55A581382ABB816D001C14AF /* ThiefsSteelGrapplingHook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiefsSteelGrapplingHook.swift; sourceTree = "<group>"; };
+		55A581392ABB816D001C14AF /* DisciplesDewyFeatherGarb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplesDewyFeatherGarb.swift; sourceTree = "<group>"; };
+		55A5813A2ABB816D001C14AF /* DisciplesProstheticEye.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplesProstheticEye.swift; sourceTree = "<group>"; };
+		55A5813B2ABB816D001C14AF /* MessengersTransformativeArm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengersTransformativeArm.swift; sourceTree = "<group>"; };
+		55A5813C2ABB816D001C14AF /* MusketeersCoarseLeatherGloves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusketeersCoarseLeatherGloves.swift; sourceTree = "<group>"; };
+		55A5813D2ABB816D001C14AF /* EaglesBeakedHelmet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaglesBeakedHelmet.swift; sourceTree = "<group>"; };
+		55A5813E2ABB816D001C14AF /* KnightsIronBootsofOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsIronBootsofOrder.swift; sourceTree = "<group>"; };
+		55A5813F2ABB816D001C14AF /* HuntersLizardGloves.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HuntersLizardGloves.swift; sourceTree = "<group>"; };
+		55A581402ABB816D001C14AF /* KnightsSolemnBreastplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnightsSolemnBreastplate.swift; sourceTree = "<group>"; };
+		55A581412ABB816D001C14AF /* MusketeersWindHuntingShawl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusketeersWindHuntingShawl.swift; sourceTree = "<group>"; };
+		55A581422ABB816D001C14AF /* EaglesQuiltedPuttees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaglesQuiltedPuttees.swift; sourceTree = "<group>"; };
+		55A581432ABB816D001C14AF /* BandsLeatherJacketWithStuds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BandsLeatherJacketWithStuds.swift; sourceTree = "<group>"; };
+		55A581442ABB816D001C14AF /* ThiefsMyriadFacedMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThiefsMyriadFacedMask.swift; sourceTree = "<group>"; };
+		55A581932ABB852D001C14AF /* RelicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelicType.swift; sourceTree = "<group>"; };
+		55A581952ABBEE58001C14AF /* StatEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatEnum.swift; sourceTree = "<group>"; };
+		55A581972ABD6F1F001C14AF /* Relics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Relics.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55035A8B2AB62FEC0076510F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55035A9B2AB62FED0076510F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55035AA52AB62FED0076510F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55035A852AB62FEC0076510F = {
+			isa = PBXGroup;
+			children = (
+				55035A902AB62FEC0076510F /* StarRailic */,
+				55035AA12AB62FED0076510F /* StarRailicTests */,
+				55035AAB2AB62FED0076510F /* StarRailicUITests */,
+				55035A8F2AB62FEC0076510F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55035A8F2AB62FEC0076510F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55035A8E2AB62FEC0076510F /* StarRailic.app */,
+				55035A9E2AB62FED0076510F /* StarRailicTests.xctest */,
+				55035AA82AB62FED0076510F /* StarRailicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55035A902AB62FEC0076510F /* StarRailic */ = {
+			isa = PBXGroup;
+			children = (
+				55A581922ABB8521001C14AF /* Enums */,
+				55A57F2F2ABB79E1001C14AF /* Relics */,
+				555192A12AB7560000908E8B /* Services */,
+				55448A0A2AB6B91700C9CC40 /* Styles */,
+				55035ABF2AB66E750076510F /* Models */,
+				55035ABE2AB66E710076510F /* Shapes */,
+				55035ABB2AB66E410076510F /* Views */,
+				55035A912AB62FEC0076510F /* StarRailicApp.swift */,
+				55035A932AB62FEC0076510F /* ContentView.swift */,
+				55035A952AB62FED0076510F /* Assets.xcassets */,
+				55035A972AB62FED0076510F /* Preview Content */,
+			);
+			path = StarRailic;
+			sourceTree = "<group>";
+		};
+		55035A972AB62FED0076510F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55035A982AB62FED0076510F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55035AA12AB62FED0076510F /* StarRailicTests */ = {
+			isa = PBXGroup;
+			children = (
+				55035AA22AB62FED0076510F /* StarRailicTests.swift */,
+			);
+			path = StarRailicTests;
+			sourceTree = "<group>";
+		};
+		55035AAB2AB62FED0076510F /* StarRailicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55035AAC2AB62FED0076510F /* StarRailicUITests.swift */,
+				55035AAE2AB62FED0076510F /* StarRailicUITestsLaunchTests.swift */,
+			);
+			path = StarRailicUITests;
+			sourceTree = "<group>";
+		};
+		55035ABB2AB66E410076510F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55035ABC2AB66E610076510F /* DiamondPatternView.swift */,
+				55448A0D2AB6BC0200C9CC40 /* RelicUploader.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55035ABE2AB66E710076510F /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				55035AC02AB66E870076510F /* Diamond.swift */,
+				55448A082AB6B87400C9CC40 /* SlantedRectangle.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		55035ABF2AB66E750076510F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				555192A22AB7561A00908E8B /* Relic.swift */,
+				555192A42AB7580F00908E8B /* Stat.swift */,
+				5509DDBC2ABA6ABC008B565A /* RelicStat.swift */,
+				55A581972ABD6F1F001C14AF /* Relics.swift */,
+				5546143B2AC1017F00CA1DF6 /* SpeedStat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55448A0A2AB6B91700C9CC40 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				55448A0B2AB6B92900C9CC40 /* SlandtedRectangleButtonStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		555192A12AB7560000908E8B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5524FCC82AB7871200F85626 /* RelicProcessor.swift */,
+				5509DDBA2ABA6384008B565A /* RelicScorer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		55A57F2F2ABB79E1001C14AF /* Relics */ = {
+			isa = PBXGroup;
+			children = (
+				55A581232ABB816D001C14AF /* BandsAnkleBootsWithRivets.swift */,
+				55A581432ABB816D001C14AF /* BandsLeatherJacketWithStuds.swift */,
+				55A581252ABB816D001C14AF /* BandsPolarizedSunglasses.swift */,
+				55A5811E2ABB816D001C14AF /* BandsTouringBracelet.swift */,
+				55A581152ABB816D001C14AF /* BelobogsFortressofPreservation.swift */,
+				55A580FD2ABB816C001C14AF /* BelobogsIronDefense.swift */,
+				55A581022ABB816C001C14AF /* ChampionsChestGuard.swift */,
+				55A581032ABB816C001C14AF /* ChampionsFleetfootBoots.swift */,
+				55A580FE2ABB816C001C14AF /* ChampionsHeadgear.swift */,
+				55A581292ABB816D001C14AF /* ChampionsHeavyGloves.swift */,
+				55A581202ABB816D001C14AF /* DisciplesCelestialSilkSandals.swift */,
+				55A581392ABB816D001C14AF /* DisciplesDewyFeatherGarb.swift */,
+				55A581182ABB816D001C14AF /* DisciplesIngeniumHand.swift */,
+				55A5813A2ABB816D001C14AF /* DisciplesProstheticEye.swift */,
+				55A5813D2ABB816D001C14AF /* EaglesBeakedHelmet.swift */,
+				55A581422ABB816D001C14AF /* EaglesQuiltedPuttees.swift */,
+				55A580FB2ABB816C001C14AF /* EaglesSoaringRing.swift */,
+				55A580F82ABB816C001C14AF /* EaglesWingedSuitHarness.swift */,
+				55A581342ABB816D001C14AF /* FiresmithsAlloyLeg.swift */,
+				55A581072ABB816C001C14AF /* FiresmithsFireproofApron.swift */,
+				55A5811F2ABB816D001C14AF /* FiresmithsObsidianGoggles.swift */,
+				55A5810F2ABB816D001C14AF /* FiresmithsRingofFlameMastery.swift */,
+				55A5812D2ABB816D001C14AF /* GeniusFrequencyCatcher.swift */,
+				55A581172ABB816D001C14AF /* GeniusGravityWalker.swift */,
+				55A581092ABB816C001C14AF /* GeniusMetafieldSuit.swift */,
+				55A5811B2ABB816D001C14AF /* GeniusUltraremoteSensingVisor.swift */,
+				55A580FF2ABB816C001C14AF /* GuardsCastIronHelmet.swift */,
+				55A5811C2ABB816D001C14AF /* GuardsShiningGauntlets.swift */,
+				55A581192ABB816D001C14AF /* GuardsSilverGreaves.swift */,
+				55A581042ABB816C001C14AF /* GuardsUniformofOld.swift */,
+				55A5810E2ABB816D001C14AF /* HertasSpaceStation.swift */,
+				55A581302ABB816D001C14AF /* HertasWanderingTrek.swift */,
+				55A5811D2ABB816D001C14AF /* HuntersArtaiusHood.swift */,
+				55A581012ABB816C001C14AF /* HuntersIceDragonCloak.swift */,
+				55A5813F2ABB816D001C14AF /* HuntersLizardGloves.swift */,
+				55A5810B2ABB816C001C14AF /* HuntersSoftElkskinBoots.swift */,
+				55A581112ABB816D001C14AF /* InsumoususFrayedHawser.swift */,
+				55A5810A2ABB816C001C14AF /* InsumoususWhalefallShip.swift */,
+				55A581162ABB816D001C14AF /* KnightsForgivingCasque.swift */,
+				55A5813E2ABB816D001C14AF /* KnightsIronBootsofOrder.swift */,
+				55A581002ABB816C001C14AF /* KnightsSilentOathRing.swift */,
+				55A581402ABB816D001C14AF /* KnightsSolemnBreastplate.swift */,
+				55A581062ABB816C001C14AF /* MessengersHolovisor.swift */,
+				55A5812C2ABB816D001C14AF /* MessengersParkoolSneakers.swift */,
+				55A581242ABB816D001C14AF /* MessengersSecretSatchel.swift */,
+				55A5813B2ABB816D001C14AF /* MessengersTransformativeArm.swift */,
+				55A5813C2ABB816D001C14AF /* MusketeersCoarseLeatherGloves.swift */,
+				55A580FC2ABB816C001C14AF /* MusketeersRivetsRidingBoots.swift */,
+				55A5812E2ABB816D001C14AF /* MusketeersWildWheatFeltHat.swift */,
+				55A581412ABB816D001C14AF /* MusketeersWindHuntingShawl.swift */,
+				55A581102ABB816D001C14AF /* PasserbysRaggedEmbroidedCoat.swift */,
+				55A5810D2ABB816C001C14AF /* PasserbysRejuvenatedWoodenHairstick.swift */,
+				55A581272ABB816D001C14AF /* PasserbysRoamingDragonBracer.swift */,
+				55A581052ABB816C001C14AF /* PasserbysStygianHikingBoots.swift */,
+				55A5812F2ABB816D001C14AF /* PlanetScrewllumsMechanicalSun.swift */,
+				55A581262ABB816D001C14AF /* PlanetScrewllumsRingSystem.swift */,
+				55A581362ABB816D001C14AF /* SalsottosMovingCity.swift */,
+				55A581332ABB816D001C14AF /* SalsottosTerminatorLine.swift */,
+				55A5811A2ABB816D001C14AF /* TaikiyanLaserStadium.swift */,
+				55A581142ABB816D001C14AF /* TaikiyansArclightRaceTrack.swift */,
+				55A581322ABB816D001C14AF /* TaliasExposedElectricWire.swift */,
+				55A5812B2ABB816D001C14AF /* TaliasNailscrapTown.swift */,
+				55A581082ABB816C001C14AF /* TheIPCsMegaHQ.swift */,
+				55A581282ABB816D001C14AF /* TheIPCsTradeRoute.swift */,
+				55A5812A2ABB816D001C14AF /* TheXianzhouLuofusAmbrosialArborVines.swift */,
+				55A581212ABB816D001C14AF /* TheXianzhouLuofusCelestialArk.swift */,
+				55A581222ABB816D001C14AF /* ThiefsGlovesWithPrints.swift */,
+				55A581132ABB816D001C14AF /* ThiefsMeteorBoots.swift */,
+				55A581442ABB816D001C14AF /* ThiefsMyriadFacedMask.swift */,
+				55A581382ABB816D001C14AF /* ThiefsSteelGrapplingHook.swift */,
+				55A5810C2ABB816C001C14AF /* VonwacqsIslandicCoast.swift */,
+				55A580F92ABB816C001C14AF /* VonwacqsIslandofBirth.swift */,
+				55A581372ABB816D001C14AF /* WastelandersBreathingMask.swift */,
+				55A580FA2ABB816C001C14AF /* WastelandersDesertTerminal.swift */,
+				55A581122ABB816D001C14AF /* WastelandersFriarRobe.swift */,
+				55A581352ABB816D001C14AF /* WastelandersPoweredGreaves.swift */,
+			);
+			path = Relics;
+			sourceTree = "<group>";
+		};
+		55A581922ABB8521001C14AF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				55A581932ABB852D001C14AF /* RelicType.swift */,
+				55A581952ABBEE58001C14AF /* StatEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55035A8D2AB62FEC0076510F /* StarRailic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55035AB22AB62FED0076510F /* Build configuration list for PBXNativeTarget "StarRailic" */;
+			buildPhases = (
+				55035A8A2AB62FEC0076510F /* Sources */,
+				55035A8B2AB62FEC0076510F /* Frameworks */,
+				55035A8C2AB62FEC0076510F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarRailic;
+			productName = StarRailic;
+			productReference = 55035A8E2AB62FEC0076510F /* StarRailic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55035A9D2AB62FED0076510F /* StarRailicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55035AB52AB62FED0076510F /* Build configuration list for PBXNativeTarget "StarRailicTests" */;
+			buildPhases = (
+				55035A9A2AB62FED0076510F /* Sources */,
+				55035A9B2AB62FED0076510F /* Frameworks */,
+				55035A9C2AB62FED0076510F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55035AA02AB62FED0076510F /* PBXTargetDependency */,
+			);
+			name = StarRailicTests;
+			productName = StarRailicTests;
+			productReference = 55035A9E2AB62FED0076510F /* StarRailicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55035AA72AB62FED0076510F /* StarRailicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55035AB82AB62FED0076510F /* Build configuration list for PBXNativeTarget "StarRailicUITests" */;
+			buildPhases = (
+				55035AA42AB62FED0076510F /* Sources */,
+				55035AA52AB62FED0076510F /* Frameworks */,
+				55035AA62AB62FED0076510F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55035AAA2AB62FED0076510F /* PBXTargetDependency */,
+			);
+			name = StarRailicUITests;
+			productName = StarRailicUITests;
+			productReference = 55035AA82AB62FED0076510F /* StarRailicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55035A862AB62FEC0076510F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					55035A8D2AB62FEC0076510F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					55035A9D2AB62FED0076510F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 55035A8D2AB62FEC0076510F;
+					};
+					55035AA72AB62FED0076510F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 55035A8D2AB62FEC0076510F;
+					};
+				};
+			};
+			buildConfigurationList = 55035A892AB62FEC0076510F /* Build configuration list for PBXProject "StarRailic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55035A852AB62FEC0076510F;
+			productRefGroup = 55035A8F2AB62FEC0076510F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55035A8D2AB62FEC0076510F /* StarRailic */,
+				55035A9D2AB62FED0076510F /* StarRailicTests */,
+				55035AA72AB62FED0076510F /* StarRailicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55035A8C2AB62FEC0076510F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55035A992AB62FED0076510F /* Preview Assets.xcassets in Resources */,
+				55035A962AB62FED0076510F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55035A9C2AB62FED0076510F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55035AA62AB62FED0076510F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55035A8A2AB62FEC0076510F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A581472ABB816E001C14AF /* WastelandersDesertTerminal.swift in Sources */,
+				55A581842ABB816E001C14AF /* WastelandersBreathingMask.swift in Sources */,
+				55A5816C2ABB816E001C14AF /* FiresmithsObsidianGoggles.swift in Sources */,
+				55A581942ABB852D001C14AF /* RelicType.swift in Sources */,
+				555192A32AB7561A00908E8B /* Relic.swift in Sources */,
+				5509DDBD2ABA6ABC008B565A /* RelicStat.swift in Sources */,
+				5524FCC92AB7871200F85626 /* RelicProcessor.swift in Sources */,
+				55A5818D2ABB816E001C14AF /* KnightsSolemnBreastplate.swift in Sources */,
+				55A5818A2ABB816E001C14AF /* EaglesBeakedHelmet.swift in Sources */,
+				55A5814F2ABB816E001C14AF /* ChampionsChestGuard.swift in Sources */,
+				55A581462ABB816E001C14AF /* VonwacqsIslandofBirth.swift in Sources */,
+				55A581892ABB816E001C14AF /* MusketeersCoarseLeatherGloves.swift in Sources */,
+				55035AC12AB66E870076510F /* Diamond.swift in Sources */,
+				55A581762ABB816E001C14AF /* ChampionsHeavyGloves.swift in Sources */,
+				55A581642ABB816E001C14AF /* GeniusGravityWalker.swift in Sources */,
+				55A581882ABB816E001C14AF /* MessengersTransformativeArm.swift in Sources */,
+				55A581542ABB816E001C14AF /* FiresmithsFireproofApron.swift in Sources */,
+				55A5814D2ABB816E001C14AF /* KnightsSilentOathRing.swift in Sources */,
+				55A5816D2ABB816E001C14AF /* DisciplesCelestialSilkSandals.swift in Sources */,
+				55A581742ABB816E001C14AF /* PasserbysRoamingDragonBracer.swift in Sources */,
+				55A581482ABB816E001C14AF /* EaglesSoaringRing.swift in Sources */,
+				55A581722ABB816E001C14AF /* BandsPolarizedSunglasses.swift in Sources */,
+				55A5816A2ABB816E001C14AF /* HuntersArtaiusHood.swift in Sources */,
+				55A5815C2ABB816E001C14AF /* FiresmithsRingofFlameMastery.swift in Sources */,
+				55A581502ABB816E001C14AF /* ChampionsFleetfootBoots.swift in Sources */,
+				55448A092AB6B87400C9CC40 /* SlantedRectangle.swift in Sources */,
+				55A5817F2ABB816E001C14AF /* TaliasExposedElectricWire.swift in Sources */,
+				55A581552ABB816E001C14AF /* TheIPCsMegaHQ.swift in Sources */,
+				55A5815B2ABB816E001C14AF /* HertasSpaceStation.swift in Sources */,
+				55A581612ABB816E001C14AF /* TaikiyansArclightRaceTrack.swift in Sources */,
+				55A581782ABB816E001C14AF /* TaliasNailscrapTown.swift in Sources */,
+				555192A52AB7580F00908E8B /* Stat.swift in Sources */,
+				55A581812ABB816E001C14AF /* FiresmithsAlloyLeg.swift in Sources */,
+				55A581702ABB816E001C14AF /* BandsAnkleBootsWithRivets.swift in Sources */,
+				55A5817C2ABB816E001C14AF /* PlanetScrewllumsMechanicalSun.swift in Sources */,
+				55A581802ABB816E001C14AF /* SalsottosTerminatorLine.swift in Sources */,
+				55A581692ABB816E001C14AF /* GuardsShiningGauntlets.swift in Sources */,
+				55A581632ABB816E001C14AF /* KnightsForgivingCasque.swift in Sources */,
+				55A5814C2ABB816E001C14AF /* GuardsCastIronHelmet.swift in Sources */,
+				55A5818F2ABB816E001C14AF /* EaglesQuiltedPuttees.swift in Sources */,
+				55A581792ABB816E001C14AF /* MessengersParkoolSneakers.swift in Sources */,
+				55A5815A2ABB816E001C14AF /* PasserbysRejuvenatedWoodenHairstick.swift in Sources */,
+				55A5817D2ABB816E001C14AF /* HertasWanderingTrek.swift in Sources */,
+				55A581902ABB816E001C14AF /* BandsLeatherJacketWithStuds.swift in Sources */,
+				55A581982ABD6F1F001C14AF /* Relics.swift in Sources */,
+				5509DDBB2ABA6384008B565A /* RelicScorer.swift in Sources */,
+				55A581492ABB816E001C14AF /* MusketeersRivetsRidingBoots.swift in Sources */,
+				55A5818B2ABB816E001C14AF /* KnightsIronBootsofOrder.swift in Sources */,
+				55A581822ABB816E001C14AF /* WastelandersPoweredGreaves.swift in Sources */,
+				55A581512ABB816E001C14AF /* GuardsUniformofOld.swift in Sources */,
+				55A5815D2ABB816E001C14AF /* PasserbysRaggedEmbroidedCoat.swift in Sources */,
+				55A581752ABB816E001C14AF /* TheIPCsTradeRoute.swift in Sources */,
+				55A581592ABB816E001C14AF /* VonwacqsIslandicCoast.swift in Sources */,
+				55A5816F2ABB816E001C14AF /* ThiefsGlovesWithPrints.swift in Sources */,
+				55035ABD2AB66E610076510F /* DiamondPatternView.swift in Sources */,
+				55A581682ABB816E001C14AF /* GeniusUltraremoteSensingVisor.swift in Sources */,
+				55A5817A2ABB816E001C14AF /* GeniusFrequencyCatcher.swift in Sources */,
+				55A5818C2ABB816E001C14AF /* HuntersLizardGloves.swift in Sources */,
+				55A581622ABB816E001C14AF /* BelobogsFortressofPreservation.swift in Sources */,
+				55A581602ABB816E001C14AF /* ThiefsMeteorBoots.swift in Sources */,
+				55A581832ABB816E001C14AF /* SalsottosMovingCity.swift in Sources */,
+				55035A942AB62FEC0076510F /* ContentView.swift in Sources */,
+				55A581662ABB816E001C14AF /* GuardsSilverGreaves.swift in Sources */,
+				55A5814E2ABB816E001C14AF /* HuntersIceDragonCloak.swift in Sources */,
+				55A581582ABB816E001C14AF /* HuntersSoftElkskinBoots.swift in Sources */,
+				55A581962ABBEE58001C14AF /* StatEnum.swift in Sources */,
+				55A581532ABB816E001C14AF /* MessengersHolovisor.swift in Sources */,
+				55A581652ABB816E001C14AF /* DisciplesIngeniumHand.swift in Sources */,
+				55A581712ABB816E001C14AF /* MessengersSecretSatchel.swift in Sources */,
+				55A5814B2ABB816E001C14AF /* ChampionsHeadgear.swift in Sources */,
+				55A5818E2ABB816E001C14AF /* MusketeersWindHuntingShawl.swift in Sources */,
+				55A5816E2ABB816E001C14AF /* TheXianzhouLuofusCelestialArk.swift in Sources */,
+				55A5816B2ABB816E001C14AF /* BandsTouringBracelet.swift in Sources */,
+				55448A0C2AB6B92900C9CC40 /* SlandtedRectangleButtonStyle.swift in Sources */,
+				55A581672ABB816E001C14AF /* TaikiyanLaserStadium.swift in Sources */,
+				55A5817B2ABB816E001C14AF /* MusketeersWildWheatFeltHat.swift in Sources */,
+				55A581572ABB816E001C14AF /* InsumoususWhalefallShip.swift in Sources */,
+				55A581452ABB816E001C14AF /* EaglesWingedSuitHarness.swift in Sources */,
+				55A5814A2ABB816E001C14AF /* BelobogsIronDefense.swift in Sources */,
+				55A5815E2ABB816E001C14AF /* InsumoususFrayedHawser.swift in Sources */,
+				55035A922AB62FEC0076510F /* StarRailicApp.swift in Sources */,
+				55A581562ABB816E001C14AF /* GeniusMetafieldSuit.swift in Sources */,
+				55A581852ABB816E001C14AF /* ThiefsSteelGrapplingHook.swift in Sources */,
+				55A581872ABB816E001C14AF /* DisciplesProstheticEye.swift in Sources */,
+				55A581862ABB816E001C14AF /* DisciplesDewyFeatherGarb.swift in Sources */,
+				55A581732ABB816E001C14AF /* PlanetScrewllumsRingSystem.swift in Sources */,
+				55A581522ABB816E001C14AF /* PasserbysStygianHikingBoots.swift in Sources */,
+				5546143C2AC1017F00CA1DF6 /* SpeedStat.swift in Sources */,
+				55A5815F2ABB816E001C14AF /* WastelandersFriarRobe.swift in Sources */,
+				55A581772ABB816E001C14AF /* TheXianzhouLuofusAmbrosialArborVines.swift in Sources */,
+				55A581912ABB816E001C14AF /* ThiefsMyriadFacedMask.swift in Sources */,
+				55448A0E2AB6BC0200C9CC40 /* RelicUploader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55035A9A2AB62FED0076510F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55035AA32AB62FED0076510F /* StarRailicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55035AA42AB62FED0076510F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55035AAF2AB62FED0076510F /* StarRailicUITestsLaunchTests.swift in Sources */,
+				55035AAD2AB62FED0076510F /* StarRailicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55035AA02AB62FED0076510F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55035A8D2AB62FEC0076510F /* StarRailic */;
+			targetProxy = 55035A9F2AB62FED0076510F /* PBXContainerItemProxy */;
+		};
+		55035AAA2AB62FED0076510F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55035A8D2AB62FEC0076510F /* StarRailic */;
+			targetProxy = 55035AA92AB62FED0076510F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55035AB02AB62FED0076510F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55035AB12AB62FED0076510F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55035AB32AB62FED0076510F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarRailic/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UQB6M94NV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolimitscentral.StarRailic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55035AB42AB62FED0076510F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StarRailic/Preview Content\"";
+				DEVELOPMENT_TEAM = 5UQB6M94NV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolimitscentral.StarRailic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55035AB62AB62FED0076510F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQB6M94NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolimitscentral.StarRailicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarRailic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarRailic";
+			};
+			name = Debug;
+		};
+		55035AB72AB62FED0076510F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQB6M94NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolimitscentral.StarRailicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StarRailic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StarRailic";
+			};
+			name = Release;
+		};
+		55035AB92AB62FED0076510F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQB6M94NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolimitscentral.StarRailicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarRailic;
+			};
+			name = Debug;
+		};
+		55035ABA2AB62FED0076510F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5UQB6M94NV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nolimitscentral.StarRailicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StarRailic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55035A892AB62FEC0076510F /* Build configuration list for PBXProject "StarRailic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55035AB02AB62FED0076510F /* Debug */,
+				55035AB12AB62FED0076510F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55035AB22AB62FED0076510F /* Build configuration list for PBXNativeTarget "StarRailic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55035AB32AB62FED0076510F /* Debug */,
+				55035AB42AB62FED0076510F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55035AB52AB62FED0076510F /* Build configuration list for PBXNativeTarget "StarRailicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55035AB62AB62FED0076510F /* Debug */,
+				55035AB72AB62FED0076510F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55035AB82AB62FED0076510F /* Build configuration list for PBXNativeTarget "StarRailicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55035AB92AB62FED0076510F /* Debug */,
+				55035ABA2AB62FED0076510F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55035A862AB62FEC0076510F /* Project object */;
+}
